@@ -9,12 +9,12 @@ the backend of the app is made using strapi and it's included in 'server' folder
 
 1. Clone/download the project in your computer by
 ```
-https://github.com/bluezack/react-workshop
+git clone https://github.com/bluezack/react-workshop
 ```
 
 2. Enter the project file
 ```
-cd react workshop
+cd react-workshop
 ```
 
 3. Install required react packages
