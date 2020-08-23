@@ -8,7 +8,7 @@ function Notes() {
     const [notes, setNotes] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:1337/notes')
+        axios.get('https://intense-atoll-08644.herokuapp.com/notes')
             .then(reponse => setNotes(reponse.data));
     }, [])
 

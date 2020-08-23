@@ -15,10 +15,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\" ",
-    "client": "react-scripts start",
-    "install-server": "npm install --prefix server",
-    "server": "npm start --prefix server",
+    "start": "react-scripts start ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

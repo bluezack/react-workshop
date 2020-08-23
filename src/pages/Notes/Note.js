@@ -23,3 +23,4 @@ const Note = (props) => {
 }
 
 export default Note;
+
