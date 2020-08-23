@@ -1,0 +1,14 @@
+.menuButton {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menuIcon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

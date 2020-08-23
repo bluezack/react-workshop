@@ -2,25 +2,14 @@ import React from 'react';
 
 import MenuIcon from '../assets/images/menu.svg';
 
+import styles from '../assets/css/menu.module.css';
+
 const Menu = () => {
-
     return (
-        <div style={styles.menu}>
-            <img src={MenuIcon} alt="" style={styles.menuButton} />
-
+        <div className={styles.menuButton}>
+            <img src={MenuIcon} alt="" className={styles.menuIcon} />
         </div>
     )
-}
-
-const styles = {
-    menuButton: {
-        width: 30,
-        height: 30
-    },
-
-    menu: {
-        width: 100,
-    },
 }
 
 export default Menu;

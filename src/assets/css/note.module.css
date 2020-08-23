@@ -1,0 +1,62 @@
+.note {
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: #fcd392;
+    height: 200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.noteContainer {
+    width: 33.33%;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.title::first-letter{
+    text-transform: uppercase;
+}
+
+
+.title {
+    margin-bottom: 20px;
+    opacity: .8;
+    line-height: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /*number of lines to show*/
+    -webkit-box-orient: vertical;    
+}
+
+
+.content {
+    opacity: .6;
+    text-justify: distribute;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /*number of lines to show*/
+    -webkit-box-orient: vertical;    
+}
+
+
+.metadata {
+    font-weight: bold;
+    opacity: .4;
+    font-size: 80%;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+
+
+@media screen and (max-width: 992px) {
+  .noteContainer {
+      width: 100%;
+  }
+}
